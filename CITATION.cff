@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "egpd-censored: Extended generalized Pareto models for right-censored survival data"
+version: 1.0.0
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/eduardojanotti-dotcom/egpd-censored"
+authors: &authors
+  - given-names: Eduardo
+    family-names: Janotti
+    affiliation: "Departamento de Estatística, Instituto de Matemática, Estatística e Ciência da Computação, Universidade de São Paulo, Brazil"
+  - given-names: Lígia
+    family-names: Henriques-Rodrigues
+    affiliation: "Departamento de Ciências Matemáticas, Faculdade de Ciências, Universidade de Lisboa, Portugal"
+  - given-names: Antonio Carlos
+    family-names: Pedroso-de-Lima
+    affiliation: "Departamento de Estatística, Instituto de Matemática, Estatística e Ciência da Computação, Universidade de São Paulo, Brazil"
+keywords:
+  - extreme value theory
+  - survival analysis
+  - generalized Pareto distribution
+  - right censoring
+  - long-term survival
+preferred-citation:
+  type: article
+  title: "Long-Term Tail Modeling in Survival Analysis via Extended Generalized Pareto Distributions"
+  authors: *authors
+  journal: "Journal of Applied Statistics"
+  status: submitted
+  year: 2026

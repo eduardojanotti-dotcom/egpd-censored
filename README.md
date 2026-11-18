@@ -6,6 +6,8 @@ Code for the paper
 > *Long-Term Tail Modeling in Survival Analysis via Extended Generalized Pareto Distributions.*
 > Submitted to the *Journal of Applied Statistics*.
 
+If you use this code, please cite the article (see `CITATION.cff`, or GitHub's "Cite this repository" button).
+
 The survival function is modelled as F(x) = H(G_θ(x)), where G_θ is a generalized
 Pareto distribution (GPD) with scale σ and extreme value index ξ, and H is a perturbation
 distribution on [0, 1]. Three perturbations are implemented, all fitted to right-censored
@@ -82,3 +84,7 @@ safeguard is triggered.
 * **Heart failure, INCOR–FMUSP**: the authors are authorized to use these data but not to
   share them, so they are **not** included. Users with access can pass the file with
   `python applications/applications.py --incor PATH`.
+
+## License
+
+MIT; see [`LICENSE`](LICENSE).
